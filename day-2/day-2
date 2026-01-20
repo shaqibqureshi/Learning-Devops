@@ -1,0 +1,117 @@
+
+Today i have learned about package manager and installed docker with it 
+
+# Package Manager (APT)
+
+APT is used to install, update, and remove software on Ubuntu/Debian-based systems.
+
+### Commands practiced
+sudo apt update  
+sudo apt install docker.io  
+sudo apt remove docker.io  
+
+---
+
+## Docker Installation
+
+Installed Docker using the APT package manager.
+
+Checked Docker version using:
+docker --version
+
+---
+
+## Snap Package Manager
+
+Snap is a universal package manager that works across multiple Linux distributions.
+It installs applications along with their dependencies and runs them in isolation.
+
+### Example commands
+snap install docker  
+snap list  
+snap remove docker  
+
+---
+
+## APT vs APT-GET
+
+Both are used in Debian-based distributions.
+
+- `apt` is newer and more user-friendly
+- `apt-get` is older and commonly used in scripts
+
+---
+
+## Debian-based vs Red Hat–based Distributions
+
+- **Debian-based** (Ubuntu, Debian)
+  - Package format: `.deb`
+  - Package manager: APT
+
+- **Red Hat–based** (RHEL, CentOS)
+  - Package format: `.rpm`
+  - Package manager: YUM / DNF
+
+---
+
+## Notes
+- APT automatically handles dependencies
+- Snap packages are universal across distros
+- Docker service can be managed using `systemctl`
+## Package Manager (APT)
+
+APT is used to install, update, and remove software on Ubuntu/Debian-based systems.
+
+### Commands practiced
+sudo apt update  
+sudo apt install docker.io  
+sudo apt remove docker.io  
+
+---
+
+## Docker Installation
+
+Installed Docker using the APT package manager.
+
+Checked Docker version using:
+docker --version
+
+---
+
+## Snap Package Manager
+
+Snap is a universal package manager that works across multiple Linux distributions.
+It installs applications along with their dependencies and runs them in isolation.
+
+### Example commands
+snap install docker  
+snap list  
+snap remove docker  
+
+---
+
+## APT vs APT-GET
+
+Both are used in Debian-based distributions.
+
+- `apt` is newer and more user-friendly
+- `apt-get` is older and commonly used in scripts
+
+---
+
+## Debian-based vs Red Hat–based Distributions
+
+- **Debian-based** (Ubuntu, Debian)
+  - Package format: `.deb`
+  - Package manager: APT
+
+- **Red Hat–based** (RHEL, CentOS)
+  - Package format: `.rpm`
+  - Package manager: YUM / DNF
+
+---
+
+## Notes
+- APT automatically handles dependencies
+- Snap packages are universal across distros
+- Docker service can be managed using `systemctl`
