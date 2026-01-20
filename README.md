@@ -1,31 +1,8 @@
-# linux-commands-practice
-# Linux Basics Practice
 
-This repository contains my Linux hands-on practice organized by day.
 
-## Structure
+# DevOps Learning Journey
 
-- `day-1/` – Navigation and basic commands (pwd, ls, cd, mkdir, touch, rm)
-- `day-2/` – File permissions, users, and groups
-- `day-3/` – Pipes and redirection
-- `day-4/` – Miscellaneous commands and mini projects
+This repository is where I document my learning journey in DevOps. I am currently focusing on understanding the fundamentals such as Linux, networking, docker, kubernetes, and other core concepts required for DevOps roles. I practice concepts on the terminal first and then write notes here in my own words.
 
-Each day folder contains:
-- `commands.md` – Commands practiced and notes
-- `scripts.sh` – Optional shell scripts for practice
-
-## How I use this repository
-
-1. Practice Linux commands in the terminal.
-2. Write what I practiced in `commands.md`.
-3. Commit daily to maintain consistency and track progress.
-4. Push to GitHub for a visual timeline of learning.
-
----
-
-## Goal
-
-- Gain confidence in Linux basics.
-- Build a professional, structured GitHub repository.
-- Keep track of learning progress and prepare for DevOps tasks.
+I am using this repository to track my progress and stay consistent with my learning. As I continue learning and improving my skills, I will start adding hands on projects and more structured content over time.
 
