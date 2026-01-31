@@ -14,7 +14,7 @@ then
 else
     echo "You are less than 18, you can"
 fi
-'
+
 
 # day - 10
 
@@ -47,4 +47,19 @@ i have not done anything today
 
 # day 12 
 today i learned about operators in bash could not practice was tired due to football match 
+'
 
+# day 13 
+
+ password=7977921926
+
+ read -p "enter your password: " user_pass
+
+ if [  "$user_pass"  -eq "$password" ]; 
+ 
+ then 
+	 echo "password is incorrect enter the correct password"
+
+ else
+   	 echo "password is correct welcome!"	
+ fi
