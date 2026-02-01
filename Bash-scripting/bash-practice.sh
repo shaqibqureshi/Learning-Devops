@@ -63,3 +63,7 @@ today i learned about operators in bash could not practice was tired due to foot
  else
    	 echo "password is correct welcome!"	
  fi
+
+ # day 14 
+
+ learned about functions mostly did nothing will learn function tomm feeling low now days
