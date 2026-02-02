@@ -67,3 +67,6 @@ today i learned about operators in bash could not practice was tired due to foot
  # day 14 
 
  learned about functions mostly did nothing will learn function tomm feeling low now days
+
+ # day 15 
+ was tired due to college so did nothing 
