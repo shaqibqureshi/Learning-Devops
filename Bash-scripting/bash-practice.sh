@@ -179,7 +179,7 @@ do
 	numbers=$((numbers+1))
 
 done
-'
+
 numbers=1
 
 while [ "$numbers" -le 10 ]
@@ -199,4 +199,60 @@ do
 	numbers=$((numbers+1))
 
 done
+'
+# day 19 - functions practice 
 
+greet_function(){
+
+
+	echo "hello $1"
+	echo "how are you $2 "
+	
+}
+
+greet_function shaqib ayman
+
+calculate_function(){
+
+	result=$(( $1 + $2 ))
+	echo "$result"
+}
+calculate_function 16 16
+
+even_function(){
+
+
+	if [ $(( $1 % 2)) -eq 0 ]
+	then
+		echo " $1 is even"
+
+	else
+		echo  "$1 is odd"
+
+	fi
+
+}
+
+even_function 3
+
+
+folder_function(){
+
+	mkdir "$1"
+	cd "$1" || exit
+	touch main.py
+	echo " folder $1 is succesfully created"
+}
+folder_function project
+
+sum_function(){
+
+	sum=0
+
+	for num in "$@"
+	do
+		sum=$((sum + num))
+	done
+	echo "the sum of number is $sum"
+}
+sum_function 1 2 3 45 6 
