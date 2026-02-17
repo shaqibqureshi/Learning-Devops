@@ -87,7 +87,7 @@ elif order == "burger":
 else: 
     print("we dont have that in our menu")
 
-     """
+    
 
 number = - 9.333
 num2 = 55
@@ -99,3 +99,92 @@ print(result)
 
 result = min(number,num2)
 print(result)
+
+
+football_studs = {
+
+    "ronaldo ": "nike",
+    "messi" : "adidas",
+    "grizzmen" : "nivia",
+    
+}
+
+for key ,value in football_studs.items():
+    print(f"{key} {value}")
+
+    
+print(football_studs.get("messi"))
+football_studs.update({"neymar": "kipsta"})
+
+menu = {
+    "fried rice" :  120,
+    "chicken crispy" : 200,
+    "chicken baddu" : 800,
+    "tandoori roti" : 7,
+    
+}
+
+cart = []
+total = 0
+
+for key , values in menu.items():
+        
+    print(f"{key:15}: {values}")
+
+
+while True:
+    order =input("enter what you want(press q to exit): ").lower()
+
+    if order == "q":
+        break
+
+    elif menu.get(order) is not None:
+        cart.append(order)
+
+for order in cart:
+    total += menu.get(order)
+
+    print(order, end=" ")
+
+
+print()
+print(f"total is: {total:.2f}")
+
+
+
+import random
+
+lowest_num = 1
+highest_num = 20
+
+computer = random.randint(lowest_num, highest_num)
+
+guesses = 0
+
+
+while True:
+
+    user = input("enter number between 1-20 (q to quit): ")
+
+    if user == "q":
+        break
+
+    user = int(user)
+
+    guesses += 1
+
+    if user < lowest_num or user > highest_num:
+        print("that number is out of range")
+        print(f"select number between {lowest_num} and {highest_num}")
+
+    elif user < computer:
+        print("too low try again")
+
+    elif user > computer:
+        print("too high try again")
+
+    else:
+        print(f"correct answer is {computer}")
+        print(f"number of guesses {guesses}")
+        break
+"""
